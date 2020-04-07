@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:stormgarnet/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:stormgarnet/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:stormgarnet/prow:hmacToken
+segmentWriteKey: vault:stormgarnet:segmentWriteKey
